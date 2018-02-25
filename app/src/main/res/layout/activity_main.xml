@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/splash_screen"
+    android:orientation="vertical"
+    tools:context="com.example.athaya.athayaputrislavia_1202150252_modul3.MainActivity">
+
+    //untuk logo
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_above="@+id/progresBar1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp"
+        android:layout_marginTop="100sp"
+        android:scaleType="fitXY"
+        android:src="@drawable/aqua"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
